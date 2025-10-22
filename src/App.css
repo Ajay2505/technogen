@@ -2,7 +2,7 @@
     @apply bg-primary-blue text-white;
 }
 .d-block p {
-    @apply text-gray-400;
+    @apply text-gray-300;
 }
 
 .d-block .d-content {

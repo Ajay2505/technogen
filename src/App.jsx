@@ -20,8 +20,8 @@ export default function App() {
                             </div>
                             <div className="absolute top-0 right-0 translate-x-1/3 -translate-y-1/2 w-16 lg:w-32 lg:h-32 h-16 rounded-full overflow-hidden z-1">
                                 <div className="absolute rounded-full inset-0 bg-gradient-to-tr from-red-600/20 to-red-600/80"></div>
-                                <div className="absolute rounded-full inset-2 lg:inset-4 bg-white"></div>
-                                <div className="absolute rounded-full inset-4 lg:inset-9 bg-green-800"></div>
+                                <div className="absolute rounded-full inset-2 lg:inset-4 bg-white/60"></div>
+                                <div className="absolute rounded-full inset-4 lg:inset-9 bg-green-600/70"></div>
                             </div>
                         </div>
                     </div>
@@ -33,15 +33,19 @@ export default function App() {
                             <div className="col-span-full lg:col-span-6 flex items-center">
                                 <div className="">
                                     <h1>WE ARE TECHNOGEN</h1>
-                                    <div className="content pt-4 border-t border-white/50">
+                                    <div className="w-1/2  border-t border-white/50"></div>
+                                    <div className="content pt-4 text-gray-300">
                                         <p>Technogen, Inc., headquartered in Chantilly, Virginia, is a CMMI Level 3 and ISO-certified global IT services and consulting company. Founded in 2003 as a Minority & Women-Owned Small Business, we deliver end-to-end IT solutions to public and private sector clients worldwide.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="lg:col-span-1"></div>
                             <div className="col-span-full lg:col-span-5">
-                                <div className="img_wrapper rounded-lg overflow-hidden">
+                                <div className="img_wrapper shadow-lg rounded-lg relative overflow-hidden -scale-x-100">
                                     <img src="/images/globe.jpg" alt="Globe" />
+                                    <div className="icon_wrapper absolute top-4 right-4 w-20">
+                                        <img src="/icons/shape.png" alt="Shape" loading="lazy" />
+                                    </div>
                                 </div>
                             </div>
                         </div>

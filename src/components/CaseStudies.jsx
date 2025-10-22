@@ -53,7 +53,7 @@ const caseStudies = [
 export default function CaseStudies() {
     return <section className="s-casestudy mainSpacer bg-primary-blue text-white">
         <div className="container">
-            <div className="grid grid-cols-12 gap-10">
+            <div className="grid grid-cols-12 gap-y-10">
                 <div className="col-span-full md:col-span-9 lg:col-span-8">
                     <h1>CASE STUDY</h1>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has</p>

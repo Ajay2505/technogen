@@ -6,7 +6,7 @@ export default function App() {
     return (
         <div className="site-wrap min-h-screen bg-gray-50">
             <main>
-                <section className="about-banner s-banner mainSpacerTop lg:min-h-screen text-white bg-gradient-to-b from-primary-blue to-white from-[70%] to-[70%]">
+                <section className="about-banner overflow-x-hidden s-banner mainSpacer lg:min-h-screen text-white bg-gradient-to-b from-primary-blue to-white from-[70%] to-[70%]">
                     <div className="container">
                         <div className="flex pt-5 mb-4 justify-start items-center gap-4">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-grid-1x2-fill text-green-500" viewBox="0 0 16 16">
@@ -29,7 +29,7 @@ export default function App() {
 
                 <section className="s-weare mainSpacer bg-primary-blue text-white">
                     <div className="container">
-                        <div className="grid grid-cols-12 gap-10">
+                        <div className="grid grid-cols-12 gap-y-10">
                             <div className="col-span-full lg:col-span-6 flex items-center">
                                 <div className="">
                                     <h1>WE ARE TECHNOGEN</h1>

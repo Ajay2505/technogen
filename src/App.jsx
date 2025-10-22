@@ -58,10 +58,10 @@ export default function App() {
                             <MainCard title="Our Vision" icon={"/icons/target.png"}>
                                 <p>We are Curious for Tomorrow, committed to delivering innovative technology solutions that exceed expectations through creativity and forward-thinking.</p>
                             </MainCard>
-                            <MainCard title="Our Mission" icon={"/icons/target.png"}>
+                            <MainCard title="Our Mission" icon={"/icons/mission.png"}>
                                 <p>To lead in IT solutions and staffing services, powered by technology, problem-solving, innovation, and integrity</p>
                             </MainCard>
-                            <MainCard title="Our Values" icon={"/icons/target.png"}>
+                            <MainCard title="Our Values" icon={"/icons/values.png"}>
                                 <p>Technology | Problem-Solving | Innovation | Integrity - these guide every solution we create and every partnership we build.</p>
                             </MainCard>
                         </div>
@@ -70,7 +70,7 @@ export default function App() {
 
                 <section className="s-sustainability mainSpacer">
                     <div className="container">
-                        <MainCard leftIcon={true} icon={"/icons/target.png"}>
+                        <MainCard leftIcon={true} icon={"/icons/sustainability.png"}>
                             <h1>SUSTAINABILITY AT TECHNOGEN</h1>
                             <div className="border-t border-gray-300 pt-4 mt-3">
                                 <p>Sustainability is integral to our business. We act ethically, transparently, and responsibly, embedding sustainability across our global operations and supply chain. As an Accrediting Body (AB) for the Supply Chain Security Standard (SCS-9001), we work with the American National Standards Institute (ANSI) to ensure trusted, sustainable ICT supply chains, protecting infrastructure and creating long-term value</p>

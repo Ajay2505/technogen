@@ -27,6 +27,27 @@ export default function App() {
                     </div>
                 </section>
 
+                <section className="s-weare mainSpacer bg-primary-blue text-white">
+                    <div className="container">
+                        <div className="grid grid-cols-12 gap-10">
+                            <div className="col-span-full lg:col-span-6 flex items-center">
+                                <div className="">
+                                    <h1>WE ARE TECHNOGEN</h1>
+                                    <div className="content pt-4 border-t border-white/50">
+                                        <p>Technogen, Inc., headquartered in Chantilly, Virginia, is a CMMI Level 3 and ISO-certified global IT services and consulting company. Founded in 2003 as a Minority & Women-Owned Small Business, we deliver end-to-end IT solutions to public and private sector clients worldwide.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="lg:col-span-1"></div>
+                            <div className="col-span-full lg:col-span-5">
+                                <div className="img_wrapper rounded-lg overflow-hidden">
+                                    <img src="/images/globe.jpg" alt="Globe" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <section className="s-vision mainSpacer bg-white">
                     <div className="container">
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
